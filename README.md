@@ -32,16 +32,19 @@ JavaProject Game
 [사용 쓰레드]
 
 1. 오프닝 메인창(애니메이션)
+
 ![image](https://user-images.githubusercontent.com/85475762/169925539-0d9a2fc0-79f3-4bcb-ad3f-834cc1dffcec.png)
 배열을 for문으로 돌려 한글자씩 추가되는 애니메이션 효과를 주었습니다.
 
 
 2. 효과음 및 음악 (22.05.24 javazoomplayer 이슈로 작동x)
 
+![image](https://user-images.githubusercontent.com/85475762/169927818-6ca2560c-11db-4a08-a0a9-ed6990582e8d.png)
+
 
 3. 이용시간 쓰레드
-현재 날짜를 알려주고 플레이어가 얼마나 플레이했는지 시간단위로 알려줍니다.
 
+현재 날짜를 알려주고 플레이어가 얼마나 플레이했는지 시간단위로 알려줍니다.
 
 ![image](https://user-images.githubusercontent.com/85475762/169927304-3412e91c-5fab-43c9-8c04-064d02a49bf0.png)
 
