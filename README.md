@@ -15,7 +15,7 @@ JavaProject Game
 
 퀘스트를 진행하며 시련을 이겨내고 궁국적으로 마지막 퀘스트를 클리어시 게임클리어가 되는 성장형 RPG 입니다.
 
-
 ![image](https://user-images.githubusercontent.com/85475762/169924654-125cb0dc-1663-40eb-9801-d7c620fbc4a2.png)
 
 
+![image](https://user-images.githubusercontent.com/85475762/169924842-8d5cc7c2-b933-4c48-b6b9-6d2da4fc8a35.png)
