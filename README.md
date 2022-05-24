@@ -35,19 +35,24 @@ JavaProject Game
 ![image](https://user-images.githubusercontent.com/85475762/169925539-0d9a2fc0-79f3-4bcb-ad3f-834cc1dffcec.png)
 배열을 for문으로 돌려 한글자씩 추가되는 애니메이션 효과를 주었습니다.
 
+
 2. 효과음 및 음악 (22.05.24 javazoomplayer 이슈로 작동x)
 
 
 3. 이용시간 쓰레드
 현재 날짜를 알려주고 플레이어가 얼마나 플레이했는지 시간단위로 알려줍니다.
 
+
 ![image](https://user-images.githubusercontent.com/85475762/169927304-3412e91c-5fab-43c9-8c04-064d02a49bf0.png)
+
 
 4. 자동 공격 쓰레드
 몬스터가 일정시간마다 플레이의 hp를 깍는 자동공격을 합니다.
 
+
 5. 전투 시간 쓰레드
 일정 시간이 지나면 몬스터가 광폭화(버프) 되어 강해집니다.
+
 
 6. 휴식 쓰레드
 마을에서 휴식을 취하면 플레이어의 체력과 행동력이 회복됩니다.
