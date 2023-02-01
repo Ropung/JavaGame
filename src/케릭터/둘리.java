@@ -13,6 +13,7 @@ public class 둘리 extends 몬스터{
 
 
 public void 각성(){
+	
 	this.종족 = "공룡족";
 	this.이름 = "[각성]둘리";    //엘리트 보스몬스터
 	this.lv = 100;

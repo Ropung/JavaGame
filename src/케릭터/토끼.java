@@ -101,17 +101,15 @@ public class 토끼 extends 주인공 {
 		System.out.println();
 			System.out.println("                                            ↵   ");
 			sc.nextLine();
-			효과음.음악중지();
-			효과음 = new 사운드("메인선택버튼.mp3",false);
-			효과음.start();
+//			효과음.음악중지();
+//			효과음 = new 사운드("메인선택버튼.mp3",false);
+//			효과음.start();
 		return sum;
 		}
 	}
 
 		//피격되는 함수
 		@Override
-
-
 		public void 피격 (int sum){
 			System.out.println("");
 			if(sum <= 0){

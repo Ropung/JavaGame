@@ -23,11 +23,6 @@ public class 생물{
 	public int 지금,열매,웃음꽃,호잇,둘리의눈물,시련의조각,고길동의부탁,고길동의소원,둘리의분노=0;;
 
 
-
-
-
-
-
 	//생물의 공격 스킬
 	public int 공격() {
 		Random 랜덤 = new Random();

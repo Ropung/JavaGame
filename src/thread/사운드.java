@@ -6,9 +6,7 @@ import java.io.FileInputStream;
 
 
 public class 사운드 extends Thread {
-
-
-//	Player player;
+	
 	boolean isloop;
 	public String name;
 	FileInputStream fis;
@@ -30,34 +28,32 @@ public class 사운드 extends Thread {
 
 
 
-	public void 음악교체(String filename, boolean isloop) {
-//		player.close();
-		this.interrupt();
-		name = filename;
-		this.isloop = isloop;
-	}
+//	public void 음악교체(String filename, boolean isloop) {
+////		player.close();
+//		this.interrupt();
+//		name = filename;
+//		this.isloop = isloop;
+//	}
 
+//	public void 음악중지() {
+//		isloop = false;
+////		player.close();
+//		this.interrupt();
+//	}
 
-
-	public void 음악중지() {
-		isloop = false;
-//		player.close();
-		this.interrupt();
-	}
-
-	@Override
-	public void run() {
-		try {
-			do {
-//				player.play();
-				fis = new FileInputStream("src/Musicfile/" + name);
-				bis = new BufferedInputStream(fis);
-//				player = new Player(bis);
-			} while (isloop);
-		} catch (Exception e) {
-
-		}
-	}
+//	@Override
+//	public void run() {
+//		try {
+//			do {
+////				player.play();
+//				fis = new FileInputStream("src/Musicfile/" + name);
+//				bis = new BufferedInputStream(fis);
+////				player = new Player(bis);
+//			} while (isloop);
+//		} catch (Exception e) {
+//
+//		}
+//	}
 
 
 }

@@ -1,6 +1,6 @@
 package thread;
 
-import static 시스템.날짜.날짜말하기;
+import static System.날짜.날짜말하기;
 
 public class 이용시간 extends Thread {
 

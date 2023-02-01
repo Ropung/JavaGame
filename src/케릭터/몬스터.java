@@ -323,8 +323,8 @@ Scanner sc = new Scanner(System.in);
 			if (dp >= sum) {
 				hp = hp - 0;
 				System.out.println("");
-				사운드 방어 = new 사운드("방어.mp3", false);
-				방어.start();
+//				사운드 방어 = new 사운드("방어.mp3", false);
+//				방어.start();
 				System.out.println("                                                                         적의 방어력이 높아 데미지가 들어가질않습니다.]");
 				System.out.println("                                                                         적의 [ Hp ] : " + this.hp);
 			}
@@ -338,8 +338,8 @@ Scanner sc = new Scanner(System.in);
 				if (hp <= 0) {
 					System.out.println();
 					System.out.println();
-					사운드 타격음 = new 사운드("타격음.mp3", false);
-					타격음.start();
+//					사운드 타격음 = new 사운드("타격음.mp3", false);
+//					타격음.start();
 					System.out.println("");
 					System.out.println(this.이름 + "가 사망하였습니다.");
 					System.out.println("");
@@ -364,9 +364,9 @@ Scanner sc = new Scanner(System.in);
 				System.out.println();
 				System.out.println("                                                    ↵   ");
 				sc.nextLine();
-				효과음.음악중지();
-				효과음 = new 사운드("메인선택버튼.mp3", false);
-				효과음.start();
+//				효과음.음악중지();
+//				효과음 = new 사운드("메인선택버튼.mp3", false);
+//				효과음.start();
 				System.out.println();
 			}else if (스킬 <=66) {
 				System.out.println();
@@ -375,9 +375,9 @@ Scanner sc = new Scanner(System.in);
 				System.out.println();
 				System.out.println("                                                    ↵   ");
 				sc.nextLine();
-				효과음.음악중지();
-				효과음 = new 사운드("메인선택버튼.mp3", false);
-				효과음.start();
+//				효과음.음악중지();
+//				효과음 = new 사운드("메인선택버튼.mp3", false);
+//				효과음.start();
 				System.out.println();
 			}
 			else if (스킬 <=99) {
@@ -387,9 +387,9 @@ Scanner sc = new Scanner(System.in);
 				System.out.println();
 				System.out.println("                                                    ↵   ");
 				sc.nextLine();
-				효과음.음악중지();
-				효과음 = new 사운드("메인선택버튼.mp3", false);
-				효과음.start();
+//				효과음.음악중지();
+//				효과음 = new 사운드("메인선택버튼.mp3", false);
+//				효과음.start();
 				System.out.println();
 			}
 
